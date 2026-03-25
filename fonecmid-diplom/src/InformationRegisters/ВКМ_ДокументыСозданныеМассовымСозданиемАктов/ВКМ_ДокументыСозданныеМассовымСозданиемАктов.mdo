@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09715d7b-1a32-4ea3-9d2e-3ba620bd105d">
+  <producedTypes>
+    <selectionType typeId="8da3dcd9-730a-4fc7-a592-5bfc7458b73f" valueTypeId="a2c1cd0f-49a8-43c1-be36-72a109ecc2df"/>
+    <listType typeId="0eaab094-153e-4ea4-b2cf-896f57419965" valueTypeId="72c5365a-a24d-4dbf-bac0-fce417fb0559"/>
+    <managerType typeId="f6e490d5-3aca-4001-8613-c7c4a028c7f9" valueTypeId="c0a34d8d-7ce9-460d-b748-1d26d25a416b"/>
+    <recordSetType typeId="038c6610-8cbd-4fd2-98fa-f9c3d0357d0b" valueTypeId="c8360e59-1079-40d6-90eb-d12c08d88756"/>
+    <recordKeyType typeId="e1aa8273-cd88-4b21-b56d-506df48eb295" valueTypeId="52f498b3-319a-4816-9679-6c6010f6886e"/>
+    <recordType typeId="2624e85d-25d4-4e5d-af23-fc1f3423fc2e" valueTypeId="40bbf92c-b017-4a7f-8fcd-4ab43297202d"/>
+    <recordManagerType typeId="088d5b49-9fc3-43c3-8b5c-da283285f49c" valueTypeId="49275d26-99c9-406a-82df-9b9c828f144e"/>
+  </producedTypes>
+  <name>ВКМ_ДокументыСозданныеМассовымСозданиемАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы созданные массовым созданием актов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="86e43141-d886-4c2a-8909-2c6df805b625">
+    <name>ВКМ_Реализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="eed2c7d2-fd0f-4710-876e-4001e133dfee">
+    <name>ВКМ_ПериодДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВКМ период документа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="66b8cca9-ab68-4c2a-a5ca-bae370ce58bc">
+    <name>ВКМ_Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4a2cb42-403e-4eee-b8db-87c4617dec8c">
+  <producedTypes>
+    <objectType typeId="ea0a80e0-76ee-4eb6-a009-2ce7979a532a" valueTypeId="efa6646e-7848-4f1e-965b-52e2941b54ff"/>
+    <refType typeId="ae267324-69d4-4ff0-b7b3-7ad291d87aea" valueTypeId="6542dbb2-361b-49d7-a09f-eb78b1edf4b2"/>
+    <selectionType typeId="ecfaec8e-653b-46dd-b9ca-a37bcbed3847" valueTypeId="8c7fea5d-320f-482b-86d1-4184d244c594"/>
+    <listType typeId="e64f87e5-dfd3-40ed-8118-0908aec934b7" valueTypeId="f5f882b4-420c-4013-934a-6bf3e92626d4"/>
+    <managerType typeId="7f73733c-98b5-4966-bdd8-ec00afc18de9" valueTypeId="0545e6ee-d90d-4cd8-b726-e6c2a232d6d5"/>
+  </producedTypes>
+  <name>ВКМ_Специалисты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Специалисты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_Специалисты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_Специалисты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

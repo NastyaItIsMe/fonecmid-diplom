@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c384c111-293b-48c2-aa37-3cfff94104cc">
+  <name>ВКМ_ОбслуживаниеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание клиентов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Constant.ВКМ_ТокенУправленияТелеграмботом</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыТелеграм</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>InformationRegister.ВКМ_ДокументыСозданныеМассовымСозданиемАктов</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+</mdclass:Subsystem>
