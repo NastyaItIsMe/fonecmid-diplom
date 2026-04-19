@@ -891,7 +891,6 @@
   <commonModules>CommonModule.ВКМ_РегламентныеЗадания</commonModules>
   <commonModules>CommonModule.ВКМ_ОбщийМодуль</commonModules>
   <commonModules>CommonModule.ВКМ_Телеграм</commonModules>
-  <commonModules>CommonModule.ВКМ_ПроведениеРасчетов</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
@@ -1418,8 +1417,8 @@
   <accumulationRegisters>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartsOfCalculationTypes>
-  <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartsOfCalculationTypes>
   <calculationRegisters>CalculationRegister.ВКМ_ОсновныеНачисления</calculationRegisters>
   <calculationRegisters>CalculationRegister.ВКМ_ДополнительныеНачисления</calculationRegisters>
   <calculationRegisters>CalculationRegister.ВКМ_Удержания</calculationRegisters>

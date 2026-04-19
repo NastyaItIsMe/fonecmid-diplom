@@ -14,10 +14,51 @@
     <value>Выполненные клиенту работы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="2d7e04e2-b9f6-490c-a1b6-3bc0b1fc4883">
-    <name>ВКМ_КоличествоЧасов</name>
+    <name>КоличествоЧасов</name>
     <synonym>
       <key>ru</key>
       <value>Количество часов</value>
@@ -35,7 +76,7 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <resources uuid="bd1b2574-bb81-44fd-8af8-60d10285612a">
-    <name>ВКМ_СуммаКОплате</name>
+    <name>СуммаКОплате</name>
     <synonym>
       <key>ru</key>
       <value>Сумма к оплате</value>
@@ -53,7 +94,7 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="acca8834-bc7f-45f8-8dc1-fd4173bcdb62">
-    <name>ВКМ_Клиент</name>
+    <name>Клиент</name>
     <synonym>
       <key>ru</key>
       <value>Клиент</value>
@@ -67,7 +108,7 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="219d3350-e284-45f2-ad1d-62f73dc6b9fa">
-    <name>ВКМ_Договор</name>
+    <name>Договор</name>
     <synonym>
       <key>ru</key>
       <value>Договор</value>

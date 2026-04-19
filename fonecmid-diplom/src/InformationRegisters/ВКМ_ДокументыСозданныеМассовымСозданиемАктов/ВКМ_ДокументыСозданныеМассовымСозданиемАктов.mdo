@@ -16,9 +16,42 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="86e43141-d886-4c2a-8909-2c6df805b625">
-    <name>ВКМ_Реализация</name>
+    <name>Реализация</name>
     <synonym>
       <key>ru</key>
       <value>Реализация</value>
@@ -33,10 +66,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="eed2c7d2-fd0f-4710-876e-4001e133dfee">
-    <name>ВКМ_ПериодДокумента</name>
+    <name>ПериодДокумента</name>
     <synonym>
       <key>ru</key>
-      <value>ВКМ период документа</value>
+      <value>Период документа</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -52,7 +85,7 @@
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="66b8cca9-ab68-4c2a-a5ca-bae370ce58bc">
-    <name>ВКМ_Договор</name>
+    <name>Договор</name>
     <synonym>
       <key>ru</key>
       <value>Договор</value>

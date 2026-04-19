@@ -15,6 +15,47 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ВКМ_НачислениеФиксированнойПремии.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -33,13 +74,21 @@
       <objectType typeId="8b56971f-abdf-4eed-acdd-2fb32edba979" valueTypeId="ece705ca-9c81-43ff-b665-2a287bab084d"/>
       <rowType typeId="8ff124a0-a631-4c6b-a219-56ca4167a50b" valueTypeId="b612b756-515c-41ee-8f1a-76405fd3d681"/>
     </producedTypes>
-    <name>ВКМ_Сотрудники</name>
+    <name>Сотрудники</name>
     <synonym>
       <key>ru</key>
       <value>Сотрудники</value>
     </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
     <attributes uuid="440203d3-61d7-4859-9be9-376798a81aad">
-      <name>ВКМ_сотрудник</name>
+      <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
         <value>Сотрудник</value>
@@ -53,7 +102,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="293911a0-7972-40af-acaf-86594616ffeb">
-      <name>ВКМ_СуммаПремии</name>
+      <name>СуммаПремии</name>
       <synonym>
         <key>ru</key>
         <value>Сумма премии</value>

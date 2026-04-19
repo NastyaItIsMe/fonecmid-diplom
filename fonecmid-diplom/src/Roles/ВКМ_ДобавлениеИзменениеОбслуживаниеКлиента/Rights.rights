@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Document.ВКМ_НачисленияЗарплаты.TabularSection.ВКМ_ОсновныеНачисления</name>
+		<name>Document.ВКМ_НачисленияЗарплаты.TabularSection.ОсновныеНачисления</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -101,7 +101,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВКМ_НачисленияЗарплаты.Attribute.ВКМ_ПериодРегистрации</name>
+		<name>Document.ВКМ_НачисленияЗарплаты.Attribute.ПериодРегистрации</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -112,7 +112,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВКМ_НачисленияЗарплаты.TabularSection.ВКМ_ОсновныеНачисления.Attribute.ВКМ_Размер</name>
+		<name>Document.ВКМ_НачисленияЗарплаты.TabularSection.ОсновныеНачисления.Attribute.Размер</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -123,18 +123,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВКМ_НачисленияЗарплаты.TabularSection.ВКМ_ОсновныеНачисления.Attribute.ВКМ_ВидРасчета</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_НачисленияЗарплаты.TabularSection.ВКМ_ОсновныеНачисления.Attribute.ВКМ_Сотрудник</name>
+		<name>Document.ВКМ_НачисленияЗарплаты.TabularSection.ОсновныеНачисления.Attribute.Сотрудник</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -251,7 +240,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВКМ_НачисленияЗарплаты.TabularSection.ВКМ_ОсновныеНачисления.Attribute.ВКМ_ДатаНачала</name>
+		<name>Document.ВКМ_НачисленияЗарплаты.TabularSection.ОсновныеНачисления.Attribute.ДатаНачала</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -432,7 +421,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВКМ_НачисленияЗарплаты.TabularSection.ВКМ_ОсновныеНачисления.Attribute.ВКМ_ДатаОкончания</name>
+		<name>Document.ВКМ_НачисленияЗарплаты.TabularSection.ОсновныеНачисления.Attribute.ДатаОкончания</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

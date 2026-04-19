@@ -7,25 +7,12 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ВКМ_Сотрудник</dataPath>
-			<field>ВКМ_Сотрудник</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Сотрудник</dataPath>
 			<field>Сотрудник</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Сотрудник</v8:content>
-				</v8:item>
-			</title>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ОсталосьВыплатитьНаНачало</dataPath>
-			<field>ОсталосьВыплатитьНаНачало</field>
+			<dataPath>СуммаНачальныйОстаток</dataPath>
+			<field>СуммаНачальныйОстаток</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -34,13 +21,17 @@
 			</title>
 			<role>
 				<dcscom:balance>true</dcscom:balance>
-				<dcscom:balanceGroupName>ОсталосьВыплатитьНа</dcscom:balanceGroupName>
+				<dcscom:balanceGroupName>Сумма</dcscom:balanceGroupName>
 				<dcscom:balanceType>OpeningBalance</dcscom:balanceType>
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ОсталосьВыплатитьНаКонец</dataPath>
-			<field>ОсталосьВыплатитьНаКонец</field>
+			<dataPath>СуммаОборот</dataPath>
+			<field>СуммаОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаКонечныйОстаток</dataPath>
+			<field>СуммаКонечныйОстаток</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -49,23 +40,13 @@
 			</title>
 			<role>
 				<dcscom:balance>true</dcscom:balance>
-				<dcscom:balanceGroupName>ОсталосьВыплатитьНа</dcscom:balanceGroupName>
+				<dcscom:balanceGroupName>Сумма</dcscom:balanceGroupName>
 				<dcscom:balanceType>ClosingBalance</dcscom:balanceType>
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Выплачено</dataPath>
-			<field>Выплачено</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Выплачено</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Начислено</dataPath>
-			<field>Начислено</field>
+			<dataPath>СуммаПриход</dataPath>
+			<field>СуммаПриход</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -73,70 +54,42 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаРасход</dataPath>
+			<field>СуммаРасход</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выплачено</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.ВКМ_Сотрудник КАК Сотрудник,
-	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.ВКМ_СуммаОборот КАК ОсталосьВыплатить,
-	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.ВКМ_СуммаПриход КАК Начислено,
-	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.ВКМ_СуммаНачальныйОстаток КАК ОсталосьВыплатитьНаНачало,
-	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.ВКМ_СуммаКонечныйОстаток КАК ОсталосьВыплатитьНаКонец
-ПОМЕСТИТЬ ВтОсталосьВыплатить
+	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.Сотрудник КАК Сотрудник,
+	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.СуммаНачальныйОстаток КАК СуммаНачальныйОстаток,
+	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.СуммаКонечныйОстаток КАК СуммаКонечныйОстаток,
+	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.СуммаОборот КАК СуммаОборот,
+	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.СуммаПриход КАК СуммаПриход,
+	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.СуммаРасход КАК СуммаРасход
 ИЗ
-	РегистрНакопления.ВКМ_ВзаиморасчетыССотрудниками.ОстаткиИОбороты(&amp;НачалоПериода, &amp;ОкончаниеПериода, , , ) КАК ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты
-;
-
-////////////////////////////////////////////////////////////////////////////////
-ВЫБРАТЬ
-	ВКМ_ОсновныеНачисления.ВКМ_Сотрудник КАК ВКМ_Сотрудник,
-	СУММА(ВКМ_ОсновныеНачисления.ВКМ_Сумма) КАК ВКМ_Сумма
-ПОМЕСТИТЬ ВтНачисления
-ИЗ
-	РегистрРасчета.ВКМ_ОсновныеНачисления КАК ВКМ_ОсновныеНачисления
-ГДЕ
-	ВКМ_ОсновныеНачисления.ПериодРегистрации МЕЖДУ &amp;НачалоПериода И &amp;ОкончаниеПериода
-
-СГРУППИРОВАТЬ ПО
-	ВКМ_ОсновныеНачисления.ВКМ_Сотрудник
-
-ОБЪЕДИНИТЬ ВСЕ
-
-ВЫБРАТЬ
-	ВКМ_ДополнительныеНачисления.ВКМ_Сотрудник,
-	ВКМ_ДополнительныеНачисления.ВКМ_Сумма
-ИЗ
-	РегистрРасчета.ВКМ_ДополнительныеНачисления КАК ВКМ_ДополнительныеНачисления
-ГДЕ
-	ВКМ_ДополнительныеНачисления.ПериодРегистрации МЕЖДУ &amp;НачалоПериода И &amp;ОкончаниеПериода
-	И ВКМ_ДополнительныеНачисления.ВидРасчета = &amp;ВидРасчетаПроценты
-;
-
-////////////////////////////////////////////////////////////////////////////////
-ВЫБРАТЬ
-	ВтОсталосьВыплатить.Сотрудник КАК Сотрудник,
-	ВтОсталосьВыплатить.ОсталосьВыплатитьНаНачало КАК ОсталосьВыплатитьНаНачало,
-	ВтОсталосьВыплатить.Начислено КАК Начислено,
-	ВтОсталосьВыплатить.Начислено - ВтОсталосьВыплатить.ОсталосьВыплатить КАК Выплачено,
-	ВтОсталосьВыплатить.ОсталосьВыплатитьНаКонец КАК ОсталосьВыплатитьНаКонец
-ИЗ
-	ВтОсталосьВыплатить КАК ВтОсталосьВыплатить
-		ЛЕВОЕ СОЕДИНЕНИЕ ВтНачисления КАК ВтНачисления
-		ПО ВтОсталосьВыплатить.Сотрудник = ВтНачисления.ВКМ_Сотрудник</query>
+	РегистрНакопления.ВКМ_ВзаиморасчетыССотрудниками.ОстаткиИОбороты КАК ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты</query>
 	</dataSet>
 	<totalField>
-		<dataPath>Выплачено</dataPath>
-		<expression>Сумма(Выплачено)</expression>
+		<dataPath>СуммаКонечныйОстаток</dataPath>
+		<expression>Сумма(СуммаКонечныйОстаток)</expression>
 	</totalField>
 	<totalField>
-		<dataPath>ОсталосьВыплатитьНаКонец</dataPath>
-		<expression>Сумма(ОсталосьВыплатитьНаКонец)</expression>
+		<dataPath>СуммаНачальныйОстаток</dataPath>
+		<expression>Сумма(СуммаНачальныйОстаток)</expression>
 	</totalField>
 	<totalField>
-		<dataPath>ОсталосьВыплатитьНаНачало</dataPath>
-		<expression>Сумма(ОсталосьВыплатитьНаНачало)</expression>
+		<dataPath>СуммаПриход</dataPath>
+		<expression>Сумма(СуммаПриход)</expression>
 	</totalField>
 	<totalField>
-		<dataPath>Начислено</dataPath>
-		<expression>Сумма(Начислено)</expression>
+		<dataPath>СуммаРасход</dataPath>
+		<expression>Сумма(СуммаРасход)</expression>
 	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -175,24 +128,6 @@
 		<expression>&amp;Период.ДатаОкончания</expression>
 	</parameter>
 	<parameter>
-		<name>ОкончаниеПериода</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Окончание периода</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type>xs:dateTime</v8:Type>
-			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
-			</v8:DateQualifiers>
-		</valueType>
-		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>false</useRestriction>
-		<expression>&amp;Период.ДатаОкончания</expression>
-	</parameter>
-	<parameter>
 		<name>Период</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
@@ -211,23 +146,6 @@
 		<useRestriction>false</useRestriction>
 		<use>Always</use>
 	</parameter>
-	<parameter>
-		<name>ВидРасчетаПроценты</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Вид расчета проценты</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ChartOfCalculationTypesRef.ВКМ_ДополнительныеНачисления</v8:Type>
-		</valueType>
-		<value xsi:nil="true"/>
-		<useRestriction>true</useRestriction>
-		<availableValue>
-			<value xsi:type="dcscor:DesignTimeValue">ПланВидовРасчета.ВКМ_ДополнительныеНачисления.ВКМ_ПроцентЗаказов</value>
-		</availableValue>
-	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="v8:LocalStringType">
@@ -239,16 +157,16 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ОсталосьВыплатитьНаНачало</dcsset:field>
+					<dcsset:field>СуммаНачальныйОстаток</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Начислено</dcsset:field>
+					<dcsset:field>СуммаПриход</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Выплачено</dcsset:field>
+					<dcsset:field>СуммаРасход</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ОсталосьВыплатитьНаКонец</dcsset:field>
+					<dcsset:field>СуммаКонечныйОстаток</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>

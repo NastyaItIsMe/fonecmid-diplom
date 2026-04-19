@@ -15,10 +15,43 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="23a619bc-e446-443c-a48b-b6d1fa5d38f5">
-    <name>ВКМ_ЧасовКОплате</name>
+    <name>ЧасовКОплате</name>
     <synonym>
       <key>ru</key>
       <value>Часов к оплате</value>
@@ -36,7 +69,7 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <resources uuid="f27b4b57-2c4d-40aa-9bcb-5d1c077bfd12">
-    <name>ВКМ_СуммаКОплате</name>
+    <name>СуммаКОплате</name>
     <synonym>
       <key>ru</key>
       <value>Сумма к оплате</value>
@@ -54,7 +87,7 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="d3c68346-76f9-4b92-a8f4-f8b4e255fbbc">
-    <name>ВКМ_Сотрудник</name>
+    <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
       <value>Сотрудник</value>

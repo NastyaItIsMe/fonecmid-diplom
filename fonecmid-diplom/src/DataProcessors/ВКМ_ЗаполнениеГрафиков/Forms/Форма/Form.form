@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
-    <name>ВКМ_ВыборПериода</name>
+    <name>ВыборПериода</name>
     <id>1</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -9,10 +9,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ВКМ_ВыборПериода</segments>
+      <segments>ВыборПериода</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВКМ_ВыборПериодаРасширеннаяПодсказка</name>
+      <name>ВыборПериодаРасширеннаяПодсказка</name>
       <id>3</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -22,7 +22,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВКМ_ВыборПериодаКонтекстноеМеню</name>
+      <name>ВыборПериодаКонтекстноеМеню</name>
       <id>2</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -41,7 +41,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ВКМ_ВыходныеДни</name>
+    <name>ВыходныеДни</name>
     <id>4</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -49,10 +49,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ВКМ_ВыходныеДни</segments>
+      <segments>ВыходныеДни</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВКМ_ВыходныеДниРасширеннаяПодсказка</name>
+      <name>ВыходныеДниРасширеннаяПодсказка</name>
       <id>6</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -62,7 +62,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВКМ_ВыходныеДниКонтекстноеМеню</name>
+      <name>ВыходныеДниКонтекстноеМеню</name>
       <id>5</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -81,7 +81,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ВКМ_ТипГрафика</name>
+    <name>ТипГрафика</name>
     <id>7</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -89,10 +89,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ВКМ_ТипГрафика</segments>
+      <segments>ТипГрафика</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВКМ_ТипГрафикаРасширеннаяПодсказка</name>
+      <name>ТипГрафикаРасширеннаяПодсказка</name>
       <id>9</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -102,7 +102,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВКМ_ТипГрафикаКонтекстноеМеню</name>
+      <name>ТипГрафикаКонтекстноеМеню</name>
       <id>8</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -121,7 +121,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:Button">
-    <name>ВКМ_Заполнить</name>
+    <name>Заполнить</name>
     <id>10</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -129,7 +129,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ВКМ_ЗаполнитьРасширеннаяПодсказка</name>
+      <name>ЗаполнитьРасширеннаяПодсказка</name>
       <id>11</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -139,7 +139,7 @@
       </extInfo>
     </extendedTooltip>
     <type>UsualButton</type>
-    <commandName>Form.Command.ВКМ_Заполнить</commandName>
+    <commandName>Form.Command.Заполнить</commandName>
     <representation>Auto</representation>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
@@ -176,7 +176,7 @@
     <main>true</main>
   </attributes>
   <attributes>
-    <name>ВКМ_ВыборПериода</name>
+    <name>ВыборПериода</name>
     <title>
       <key>ru</key>
       <value>Выбор периода</value>
@@ -193,7 +193,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ВКМ_ВыходныеДни</name>
+    <name>ВыходныеДни</name>
     <title>
       <key>ru</key>
       <value>Выходные дни</value>
@@ -213,7 +213,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ВКМ_ТипГрафика</name>
+    <name>ТипГрафика</name>
     <title>
       <key>ru</key>
       <value>Тип графика</value>
@@ -230,7 +230,7 @@
     </edit>
   </attributes>
   <formCommands>
-    <name>ВКМ_Заполнить</name>
+    <name>Заполнить</name>
     <title>
       <key>ru</key>
       <value>Заполнить</value>

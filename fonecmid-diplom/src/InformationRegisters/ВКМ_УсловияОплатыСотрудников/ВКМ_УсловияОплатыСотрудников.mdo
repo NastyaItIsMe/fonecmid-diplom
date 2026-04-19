@@ -16,11 +16,44 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
   <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="17e53a26-78e5-4597-9195-90d19df1737b">
-    <name>ВКМ_Оклад</name>
+    <name>Оклад</name>
     <synonym>
       <key>ru</key>
       <value>Оклад</value>
@@ -40,7 +73,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="1500cc6c-7de6-4bb4-83dd-4d7c95409081">
-    <name>ВКМ_ПроцентОтРабот</name>
+    <name>ПроцентОтРабот</name>
     <synonym>
       <key>ru</key>
       <value>Процент от работ</value>
@@ -60,7 +93,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="686d1744-9798-4ccf-897e-45a6c4eaaf79">
-    <name>ВКМ_Сотрудник</name>
+    <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
       <value>Сотрудник</value>

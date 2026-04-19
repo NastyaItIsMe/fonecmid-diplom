@@ -15,6 +15,47 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ВКМ_НачисленияЗарплаты.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -31,7 +72,7 @@
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="19d40638-980d-4d76-b74d-bbaf78ac12b8">
-    <name>ВКМ_ПериодРегистрации</name>
+    <name>ПериодРегистрации</name>
     <synonym>
       <key>ru</key>
       <value>Период регистрации</value>
@@ -62,13 +103,21 @@
       <objectType typeId="10cd5689-a89c-4322-a7bd-3b6f87075fef" valueTypeId="9bff74da-3ed2-43cd-8d05-143c0b42cf0f"/>
       <rowType typeId="74cc4a6b-01fb-4f36-8742-559e176a7a0e" valueTypeId="7011a48c-bb91-407d-a039-d7f9a382785b"/>
     </producedTypes>
-    <name>ВКМ_ОсновныеНачисления</name>
+    <name>ОсновныеНачисления</name>
     <synonym>
       <key>ru</key>
       <value>Ссновные начисления</value>
     </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
     <attributes uuid="2ec6030f-ec88-4586-90fc-04e170233492">
-      <name>ВКМ_Сотрудник</name>
+      <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
         <value>Сотрудник</value>
@@ -81,23 +130,8 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="2ab8c767-838f-4c32-b06c-b9ec68d50730">
-      <name>ВКМ_ВидРасчета</name>
-      <synonym>
-        <key>ru</key>
-        <value>Вид расчета</value>
-      </synonym>
-      <type>
-        <types>ChartOfCalculationTypesRef.ВКМ_ДополнительныеНачисления</types>
-        <types>ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="656ebdee-5906-40cf-9dbc-36072966bf3f">
-      <name>ВКМ_ДатаНачала</name>
+      <name>ДатаНачала</name>
       <synonym>
         <key>ru</key>
         <value>Дата начала</value>
@@ -114,7 +148,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="ed77cf6e-05d7-4504-8b29-285f340b7c6e">
-      <name>ВКМ_ДатаОкончания</name>
+      <name>ДатаОкончания</name>
       <synonym>
         <key>ru</key>
         <value>Дата окончания</value>
@@ -131,10 +165,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="217d5390-29df-4711-9fa4-b87c3d6f495f">
-      <name>ВКМ_Размер</name>
+      <name>Размер</name>
       <synonym>
         <key>ru</key>
-        <value>ВКМ размер</value>
+        <value>Размер</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -143,6 +177,36 @@
           <scale>3</scale>
           <nonNegative>true</nonNegative>
         </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8f842836-872e-45f6-bcc1-e16089c58c1a">
+      <name>ГрафикРабот</name>
+      <synonym>
+        <key>ru</key>
+        <value>График работ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВКМ_ТипыГрафиков</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b00510a9-bc32-4014-8858-b91f908edd72">
+      <name>ВидРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид расчета</value>
+      </synonym>
+      <type>
+        <types>ChartOfCalculationTypesRef.ВКМ_Удержания</types>
+        <types>ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</types>
+        <types>ChartOfCalculationTypesRef.ВКМ_ДополнительныеНачисления</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

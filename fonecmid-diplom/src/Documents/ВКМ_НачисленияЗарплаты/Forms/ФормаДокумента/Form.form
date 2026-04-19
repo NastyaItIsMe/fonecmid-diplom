@@ -89,7 +89,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВКМ_ПериодРегистрации</segments>
+      <segments>Объект.ПериодРегистрации</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПериодРегистрацииРасширеннаяПодсказка</name>
@@ -122,7 +122,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:Table">
-    <name>ВКМ_Сотрудники</name>
+    <name>Сотрудники</name>
     <id>7</id>
     <enabled>true</enabled>
     <userVisible>
@@ -130,7 +130,7 @@
     </userVisible>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ВКМ_СотрудникиНомерСтроки</name>
+      <name>СотрудникиНомерСтроки</name>
       <id>20</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -138,7 +138,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ВКМ_СотрудникиНомерСтрокиРасширеннаяПодсказка</name>
+        <name>СотрудникиНомерСтрокиРасширеннаяПодсказка</name>
         <id>22</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -148,7 +148,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_СотрудникиНомерСтрокиКонтекстноеМеню</name>
+        <name>СотрудникиНомерСтрокиКонтекстноеМеню</name>
         <id>21</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -167,7 +167,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_СотрудникиВКМ_Сотрудник</name>
+      <name>СотрудникиСотрудник</name>
       <id>23</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -175,7 +175,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ВКМ_СотрудникиВКМ_СотрудникРасширеннаяПодсказка</name>
+        <name>СотрудникиСотрудникРасширеннаяПодсказка</name>
         <id>25</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -185,7 +185,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_СотрудникиВКМ_СотрудникКонтекстноеМеню</name>
+        <name>СотрудникиСотрудникКонтекстноеМеню</name>
         <id>24</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -204,7 +204,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_СотрудникиВКМ_Оклад</name>
+      <name>СотрудникиОклад</name>
       <id>26</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -212,7 +212,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ВКМ_СотрудникиВКМ_ОкладРасширеннаяПодсказка</name>
+        <name>СотрудникиОкладРасширеннаяПодсказка</name>
         <id>28</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -222,7 +222,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_СотрудникиВКМ_ОкладКонтекстноеМеню</name>
+        <name>СотрудникиОкладКонтекстноеМеню</name>
         <id>27</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -241,7 +241,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_СотрудникиВКМ_ПроцентОтРабот</name>
+      <name>СотрудникиПроцентОтРабот</name>
       <id>29</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -249,7 +249,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ВКМ_СотрудникиВКМ_ПроцентОтРаботРасширеннаяПодсказка</name>
+        <name>СотрудникиПроцентОтРаботРасширеннаяПодсказка</name>
         <id>31</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -259,7 +259,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_СотрудникиВКМ_ПроцентОтРаботКонтекстноеМеню</name>
+        <name>СотрудникиПроцентОтРаботКонтекстноеМеню</name>
         <id>30</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -278,16 +278,16 @@
       </extInfo>
     </items>
     <autoCommandBar>
-      <name>ВКМ_СотрудникиКоманднаяПанель</name>
+      <name>СотрудникиКоманднаяПанель</name>
       <id>9</id>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
     <searchStringAddition>
-      <name>ВКМ_СотрудникиСтрокаПоиска</name>
+      <name>СотрудникиСтрокаПоиска</name>
       <id>11</id>
       <extendedTooltip>
-        <name>ВКМ_СотрудникиСтрокаПоискаРасширеннаяПодсказка</name>
+        <name>СотрудникиСтрокаПоискаРасширеннаяПодсказка</name>
         <id>13</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -297,20 +297,20 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_СотрудникиСтрокаПоискаКонтекстноеМеню</name>
+        <name>СотрудникиСтрокаПоискаКонтекстноеМеню</name>
         <id>12</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ВКМ_Сотрудники</source>
+      <source>Сотрудники</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchStringAddition>
     <viewStatusAddition>
-      <name>ВКМ_СотрудникиСостояниеПросмотра</name>
+      <name>СотрудникиСостояниеПросмотра</name>
       <id>14</id>
       <extendedTooltip>
-        <name>ВКМ_СотрудникиСостояниеПросмотраРасширеннаяПодсказка</name>
+        <name>СотрудникиСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>16</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -320,21 +320,21 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_СотрудникиСостояниеПросмотраКонтекстноеМеню</name>
+        <name>СотрудникиСостояниеПросмотраКонтекстноеМеню</name>
         <id>15</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ВКМ_Сотрудники</source>
+      <source>Сотрудники</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
-      <name>ВКМ_СотрудникиУправлениеПоиском</name>
+      <name>СотрудникиУправлениеПоиском</name>
       <id>17</id>
       <extendedTooltip>
-        <name>ВКМ_СотрудникиУправлениеПоискомРасширеннаяПодсказка</name>
+        <name>СотрудникиУправлениеПоискомРасширеннаяПодсказка</name>
         <id>19</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -344,18 +344,18 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_СотрудникиУправлениеПоискомКонтекстноеМеню</name>
+        <name>СотрудникиУправлениеПоискомКонтекстноеМеню</name>
         <id>18</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ВКМ_Сотрудники</source>
+      <source>Сотрудники</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ВКМ_СотрудникиРасширеннаяПодсказка</name>
+      <name>СотрудникиРасширеннаяПодсказка</name>
       <id>10</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -365,7 +365,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВКМ_СотрудникиКонтекстноеМеню</name>
+      <name>СотрудникиКонтекстноеМеню</name>
       <id>8</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -393,7 +393,7 @@
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <items xsi:type="form:Table">
-    <name>ВКМ_ОсновныеНачисления</name>
+    <name>ОсновныеНачисления</name>
     <id>34</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -401,11 +401,11 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВКМ_ОсновныеНачисления</segments>
+      <segments>Объект.ОсновныеНачисления</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ОсновныеНачисленияНомерСтроки</name>
+      <name>ОсновныеНачисленияНомерСтроки</name>
       <id>47</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -413,10 +413,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ОсновныеНачисления.LineNumber</segments>
+        <segments>Объект.ОсновныеНачисления.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ОсновныеНачисленияНомерСтрокиРасширеннаяПодсказка</name>
+        <name>ОсновныеНачисленияНомерСтрокиРасширеннаяПодсказка</name>
         <id>49</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -426,7 +426,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОсновныеНачисленияНомерСтрокиКонтекстноеМеню</name>
+        <name>ОсновныеНачисленияНомерСтрокиКонтекстноеМеню</name>
         <id>48</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -441,7 +441,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ОсновныеНачисленияВКМ_Сотрудник</name>
+      <name>ОсновныеНачисленияСотрудник</name>
       <id>50</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -449,10 +449,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ОсновныеНачисления.ВКМ_Сотрудник</segments>
+        <segments>Объект.ОсновныеНачисления.Сотрудник</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ОсновныеНачисленияВКМ_СотрудникРасширеннаяПодсказка</name>
+        <name>ОсновныеНачисленияСотрудникРасширеннаяПодсказка</name>
         <id>52</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -462,7 +462,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОсновныеНачисленияВКМ_СотрудникКонтекстноеМеню</name>
+        <name>ОсновныеНачисленияСотрудникКонтекстноеМеню</name>
         <id>51</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -482,19 +482,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ОсновныеНачисленияВКМ_ВидРасчета</name>
-      <id>53</id>
+      <name>ОсновныеНачисленияВидРасчета</name>
+      <id>71</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ОсновныеНачисления.ВКМ_ВидРасчета</segments>
+        <segments>Объект.ОсновныеНачисления.ВидРасчета</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ОсновныеНачисленияВКМ_ВидРасчетаРасширеннаяПодсказка</name>
-        <id>55</id>
+        <name>ОсновныеНачисленияВидРасчетаРасширеннаяПодсказка</name>
+        <id>73</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -503,8 +503,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОсновныеНачисленияВКМ_ВидРасчетаКонтекстноеМеню</name>
-        <id>54</id>
+        <name>ОсновныеНачисленияВидРасчетаКонтекстноеМеню</name>
+        <id>72</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -523,7 +523,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ОсновныеНачисленияВКМ_ДатаНачала</name>
+      <name>ОсновныеНачисленияДатаНачала</name>
       <id>56</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -531,10 +531,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ОсновныеНачисления.ВКМ_ДатаНачала</segments>
+        <segments>Объект.ОсновныеНачисления.ДатаНачала</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ОсновныеНачисленияВКМ_ДатаНачалаРасширеннаяПодсказка</name>
+        <name>ОсновныеНачисленияДатаНачалаРасширеннаяПодсказка</name>
         <id>58</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -544,7 +544,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОсновныеНачисленияВКМ_ДатаНачалаКонтекстноеМеню</name>
+        <name>ОсновныеНачисленияДатаНачалаКонтекстноеМеню</name>
         <id>57</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -564,7 +564,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ОсновныеНачисленияВКМ_ДатаОкончания</name>
+      <name>ОсновныеНачисленияДатаОкончания</name>
       <id>59</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -572,10 +572,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ОсновныеНачисления.ВКМ_ДатаОкончания</segments>
+        <segments>Объект.ОсновныеНачисления.ДатаОкончания</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ОсновныеНачисленияВКМ_ДатаОкончанияРасширеннаяПодсказка</name>
+        <name>ОсновныеНачисленияДатаОкончанияРасширеннаяПодсказка</name>
         <id>61</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -585,7 +585,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОсновныеНачисленияВКМ_ДатаОкончанияКонтекстноеМеню</name>
+        <name>ОсновныеНачисленияДатаОкончанияКонтекстноеМеню</name>
         <id>60</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -605,7 +605,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ОсновныеНачисленияВКМ_Размер</name>
+      <name>ОсновныеНачисленияРазмер</name>
       <id>62</id>
       <title>
         <key>ru</key>
@@ -617,10 +617,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ОсновныеНачисления.ВКМ_Размер</segments>
+        <segments>Объект.ОсновныеНачисления.Размер</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ОсновныеНачисленияВКМ_РазмерРасширеннаяПодсказка</name>
+        <name>ОсновныеНачисленияРазмерРасширеннаяПодсказка</name>
         <id>64</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -630,7 +630,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОсновныеНачисленияВКМ_РазмерКонтекстноеМеню</name>
+        <name>ОсновныеНачисленияРазмерКонтекстноеМеню</name>
         <id>63</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -649,17 +649,58 @@
         <textEdit>true</textEdit>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>ОсновныеНачисленияГрафикРабот</name>
+      <id>68</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ОсновныеНачисления.ГрафикРабот</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ОсновныеНачисленияГрафикРаботРасширеннаяПодсказка</name>
+        <id>70</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОсновныеНачисленияГрафикРаботКонтекстноеМеню</name>
+        <id>69</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <extendedEditMultipleValues>true</extendedEditMultipleValues>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
     <autoCommandBar>
-      <name>ВКМ_ОсновныеНачисленияКоманднаяПанель</name>
+      <name>ОсновныеНачисленияКоманднаяПанель</name>
       <id>36</id>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
     <searchStringAddition>
-      <name>ВКМ_ОсновныеНачисленияСтрокаПоиска</name>
+      <name>ОсновныеНачисленияСтрокаПоиска</name>
       <id>38</id>
       <extendedTooltip>
-        <name>ВКМ_ОсновныеНачисленияСтрокаПоискаРасширеннаяПодсказка</name>
+        <name>ОсновныеНачисленияСтрокаПоискаРасширеннаяПодсказка</name>
         <id>40</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -669,20 +710,20 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОсновныеНачисленияСтрокаПоискаКонтекстноеМеню</name>
+        <name>ОсновныеНачисленияСтрокаПоискаКонтекстноеМеню</name>
         <id>39</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ВКМ_ОсновныеНачисления</source>
+      <source>ОсновныеНачисления</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchStringAddition>
     <viewStatusAddition>
-      <name>ВКМ_ОсновныеНачисленияСостояниеПросмотра</name>
+      <name>ОсновныеНачисленияСостояниеПросмотра</name>
       <id>41</id>
       <extendedTooltip>
-        <name>ВКМ_ОсновныеНачисленияСостояниеПросмотраРасширеннаяПодсказка</name>
+        <name>ОсновныеНачисленияСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>43</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -692,21 +733,21 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОсновныеНачисленияСостояниеПросмотраКонтекстноеМеню</name>
+        <name>ОсновныеНачисленияСостояниеПросмотраКонтекстноеМеню</name>
         <id>42</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ВКМ_ОсновныеНачисления</source>
+      <source>ОсновныеНачисления</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
-      <name>ВКМ_ОсновныеНачисленияУправлениеПоиском</name>
+      <name>ОсновныеНачисленияУправлениеПоиском</name>
       <id>44</id>
       <extendedTooltip>
-        <name>ВКМ_ОсновныеНачисленияУправлениеПоискомРасширеннаяПодсказка</name>
+        <name>ОсновныеНачисленияУправлениеПоискомРасширеннаяПодсказка</name>
         <id>46</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -716,18 +757,18 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОсновныеНачисленияУправлениеПоискомКонтекстноеМеню</name>
+        <name>ОсновныеНачисленияУправлениеПоискомКонтекстноеМеню</name>
         <id>45</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ВКМ_ОсновныеНачисления</source>
+      <source>ОсновныеНачисления</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ВКМ_ОсновныеНачисленияРасширеннаяПодсказка</name>
+      <name>ОсновныеНачисленияРасширеннаяПодсказка</name>
       <id>37</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -737,7 +778,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВКМ_ОсновныеНачисленияКонтекстноеМеню</name>
+      <name>ОсновныеНачисленияКонтекстноеМеню</name>
       <id>35</id>
       <autoFill>true</autoFill>
     </contextMenu>
